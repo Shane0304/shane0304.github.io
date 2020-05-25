@@ -40,6 +40,12 @@ body, html {
   min-height: 400px;
 }
 
+/*Forth image(Youtube)*/
+.bgimg-4 {
+  background-image: url("https://images.pexels.com/photos/577585/pexels-photo-577585.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260");
+  min-height: 400px;
+}
+
 .w3-wide {letter-spacing: 10px;}
 .w3-hover-opacity {cursor: pointer;}
 
@@ -63,9 +69,19 @@ body, html {
     <a href="#about" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
     <a href="#portfolio" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-th"></i> STRENGTHS</a>
     <a href="#contact" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
-    <a href="#" class="w3-bar-item w3-button w3-hide-small w3-right w3-hover-red">
-      <i class="fa fa-search"></i>
-    </a>
+    
+    <div class= "w3-right w3-bar-item w3-button w3-hide-small ">
+      <a href="https://www.facebook.com/profile.php?id=100050513027149" class= "w3-right w3-bar-item w3-button w3-hide-small "><i class="fa fa fa-facebook-official w3-hover-opacity"></i></a>
+    
+    <a href="https://www.instagram.com/invites/contact/?i=nho869zw8jo1&utm_content=ifgsgy" class= "w3-right w3-bar-item w3-button w3-hide-small "><i class="fa fa-instagram w3-hover-opacity"></i></a>
+    
+    <a href="https://www.snapchat.com/add/shane_r194" class= "w3-right w3-bar-item w3-button w3-hide-small "><i class="fa fa-snapchat w3-hover-opacity"></i></a>
+    
+    <a href="https://www.linkedin.com/in/shane-rogers-2bab41171"class= "w3-right w3-bar-item w3-button w3-hide-small "><i class="fa fa-linkedin w3-hover-opacity"></i></a>
+    
+    <a href="https://www.youtube.com/channel/UC7x-gOnp1JSkKHNy8A-XWJA?view_as="class= "w3-right w3-bar-item w3-button w3-hide-small "><i class="fa fa-youtube w3-hover-opacity"></i></a>
+       
+    </div>
   </div>
 
   <!-- Navbar on small screens -->
@@ -97,6 +113,7 @@ body, html {
       <p>Welcome to my website, this site is currently hosted on git hub. Please feel free to look at my project I did last year </p>
     </div>
   </div>
+  
   <h3 class="w3-center"id="about">ABOUT ME</h3>
   <p class="w3-center"><em>More about me and education</em></p>
   <p>Recently Graduated Bachelor of Science in Information Technology student who has been interested in cyber security and motivated to gain on the job experience. I am a friendly person who enjoys challenging myself to do new things. I am found of learning new skills. I graduated from my Bachelor of Science in Information Technology degree last year (2019). I have done my Higher Certificate in Software Development (MLM) where I started to gain an interest in the security software programs that were created. I am passionate about security in the cyber world. I have always been interested in technology and the internet, but more specifically the security behind the technologies. While the world is ever growing with the internet and cloud computing there is a big risk, I love to look at computing systems and find out how they work. I would love to learn more and gain further understanding in the security side of all things technical related.I have played around with a lot of different technologies and built computing devices. Looking for a position that allows for a challenge, growth and learning. I am a problem-solver and critical thinker. With the knowledge of a variety of programming languages. I have helped set up gaming LANs and played around with raspberry pis and other technologies. I am able to build and take apart machines, to fix and replace items. I assembled my 3d printer</p>
@@ -124,15 +141,31 @@ body, html {
     <br>• Having the ability to adapt to different situations and learn new things.  
     <br>• Knowledge of a few different programming languages as well as different types of systems</p>
 </div>
+<!--Youtube embeded  -->
 
-<!-- Modal for full size images on click-->
-<div id="modal01" class="w3-modal w3-black" onclick="this.style.display='none'">
-  <span class="w3-button w3-large w3-black w3-display-topright" title="Close Modal Image"><i class="fa fa-remove"></i></span>
-  <div class="w3-modal-content w3-animate-zoom w3-center w3-transparent w3-padding-64">
-    <img id="img01" class="w3-image">
-    <p id="caption" class="w3-opacity w3-large"></p>
+	<!-- Fourth Parallax Image with Portfolio Text -->
+<div class="bgimg-4 w3-display-container w3-opacity-min">
+  <div class="w3-display-middle">
+    <span class="w3-xxlarge w3-text-white w3-wide">YouTube</span>
   </div>
 </div>
+
+  <center><div>
+  	<h3>Plese check out my youtube channel here is the introduction video</h3>
+    
+    <a href="https://www.youtube.com/channel/UC7x-gOnp1JSkKHNy8A-XWJA?view_as="><i class="fa fa-youtube fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Check out my youtube channel</a>
+    <br>
+  	<iframe width="560" height="315"  src="https://www.youtube.com/embed/FqKUgiULRYU" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+    <br>
+    <br>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/Wb7Y-SrTVrA" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  <br>
+  <a href="https://www.youtube.com/channel/UC7x-gOnp1JSkKHNy8A-XWJA?view_as="><i class="fa fa-youtube fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Check out my youtube channel</a>
+  
+  </div>
+  
+  </center>
+  
 
 <!-- Third Parallax Image with Portfolio Text -->
 <div class="bgimg-3 w3-display-container w3-opacity-min">
@@ -155,6 +188,7 @@ body, html {
         <i class="fa fa-map-marker fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>South Africa<br>
         <i class="fa fa-phone fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Phone: +27## ### ####<br>
         <i class="fa fa-envelope fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i> Email: shanezzz@protonmail.com<br>
+        <a href="https://www.youtube.com/channel/UC7x-gOnp1JSkKHNy8A-XWJA?view_as="><i class="fa fa-youtube fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Check out my youtube channel</a>
       </div>
       <p>Let me know if you want to talk<i class="fa fa-chevron-circle-down"></i>The button below will let you email me directly <i class="fa fa-caret-square-o-down"></i>This will only work on a Computer(email auto-fill)</p>
       <form action="mailto:shanezzz@protonmail.com" >
@@ -178,7 +212,7 @@ body, html {
     
     <a href="https://www.linkedin.com/in/shane-rogers-2bab41171"><i class="fa fa-linkedin w3-hover-opacity"></i></a>
     
-    <a href="https://www.youtube.com/channel/UC7x-gOnp1JSkKHNy8A-XWJA?view_as="><i class="ffa fa-youtube w3-hover-opacity"></i></a>
+    <a href="https://www.youtube.com/channel/UC7x-gOnp1JSkKHNy8A-XWJA?view_as="><i class="fa fa-youtube w3-hover-opacity"></i></a>
        
   </div>
   <p>Created by <a target="_blank" class="w3-hover-text-green">Shane</a></p>
