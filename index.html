@@ -56,6 +56,21 @@ body, html {
     min-height: 400px;
   }
 }
+	
+.video-responsive{
+    overflow:hidden;
+    padding-bottom:56.25%;
+    position:relative;
+    height:0;
+}
+.video-responsive iframe{
+    left:0;
+    top:0;
+    height:100%;
+    width:100%;
+    position:absolute;
+}
+	
 </style>
 <body>
 
@@ -159,7 +174,7 @@ body, html {
   </div>
 </div>
 
-  <center><div>
+  <center><div class="video-responsive">
   	<h3>Plese check out my youtube channel here is the introduction video</h3>
     
     <a href="https://www.youtube.com/channel/UC7x-gOnp1JSkKHNy8A-XWJA?view_as="><i class="fa fa-youtube fa-fw w3-hover-text-black w3-xlarge w3-margin-right"></i>Check out my youtube channel</a>
